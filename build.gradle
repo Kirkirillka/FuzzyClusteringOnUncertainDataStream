@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+}
+
+group 'de.tu-ilmenau'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'scala'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+configurations {
+    provided
+}
+
+repositories {
+    jcenter()
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.apache.spark', name: 'spark-core_' + scalaVersion, version: sparkVersion
+
+    compile group: 'org.apache.spark', name: 'spark-mllib_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-sql_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-streaming-flume-assembly_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-graphx_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-launcher_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-catalyst_' + scalaVersion, version: sparkVersion
+    compile group: 'org.apache.spark', name: 'spark-streaming_' + scalaVersion, version: sparkVersion
+
+
+    compile group: 'commons-io', name: 'commons-io', version: '2.5'
+}
