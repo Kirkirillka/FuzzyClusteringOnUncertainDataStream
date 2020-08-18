@@ -1,0 +1,41 @@
+Metric,Algorithm,Stream_Type,History_Mode,Value
+Fuzzy F1 score,dFuzzyStream,train,1,0.69873777034391
+Weighted Silhouette,dFuzzyStream,train,1,0.006289804773321
+Fuzzy HyperVolume,dFuzzyStream,train,1,1251.30461349571
+Average Partition Density,dFuzzyStream,train,1,1.90312774304582
+Fuzzy F1 score,dFuzzyStream,test,1,0.69873777034391
+Weighted Silhouette,dFuzzyStream,test,1,0.004892826657458
+Fuzzy HyperVolume,dFuzzyStream,test,1,1566.63250108653
+Average Partition Density,dFuzzyStream,test,1,2.03434647987387
+Fuzzy F1 score,dFuzzyStream,train,0,0.771555081423227
+Weighted Silhouette,dFuzzyStream,train,0,0.006989341942146
+Fuzzy HyperVolume,dFuzzyStream,train,0,353.788864869561
+Average Partition Density,dFuzzyStream,train,0,10.3683054242884
+Fuzzy F1 score,dFuzzyStream,test,0,0.771555081423227
+Weighted Silhouette,dFuzzyStream,test,0,0.0109564371395
+Fuzzy HyperVolume,dFuzzyStream,test,0,154.500010224578
+Average Partition Density,dFuzzyStream,test,0,nan
+Fuzzy F1 score,SFCM,train,1,1.64853465271304
+Weighted Silhouette,SFCM,train,1,0.441634437383603
+Fuzzy HyperVolume,SFCM,train,1,90.3186826720088
+Average Partition Density,SFCM,train,1,8.97890210717924
+Fuzzy F1 score,SFCM,test,1,1.64853465271304
+Weighted Silhouette,SFCM,test,1,0.173024181423132
+Fuzzy HyperVolume,SFCM,test,1,34.084727472916
+Average Partition Density,SFCM,test,1,65.3927820171608
+Fuzzy F1 score,SFCM,train,0,1.72530379442594
+Weighted Silhouette,SFCM,train,0,0.080270967162119
+Fuzzy HyperVolume,SFCM,train,0,50.0666386843159
+Average Partition Density,SFCM,train,0,7.33771690194629
+Fuzzy F1 score,SFCM,test,0,1.72530379442594
+Weighted Silhouette,SFCM,test,0,0.035398215723327
+Fuzzy HyperVolume,SFCM,test,0,80.469659587361
+Average Partition Density,SFCM,test,0,24.1256552833845
+F1 Score,Umicro,train,0,0.290461727785083
+Silhouette,Umicro,train,0,-0.038120558598805
+F1 Score,Umicro,test,0,0.290461727785083
+Silhouette,Umicro,test,0,-0.066364433189519
+F1 Score,Umicro,train,1,0.321882944165836
+Silhouette,Umicro,train,1,-0.029378275190053
+F1 Score,Umicro,test,1,0.321882944165836
+Silhouette,Umicro,test,1,-0.249598071605128
