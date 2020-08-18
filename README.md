@@ -7,7 +7,7 @@
 
 - Prof Anikin // KNRTU named after A.N.Tupolev
 - Prof. Kai-Uwe Sattler // TU Ilmenau
-- Adrian-Catalin Florea // (Github Fork)[https://github.com/Kirkirillka/fuzzyCMeans]
+- Adrian-Catalin Florea // [Github Fork](https://github.com/Kirkirillka/fuzzyCMeans)
 
 ## Description
 
